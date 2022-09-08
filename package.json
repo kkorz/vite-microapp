@@ -1,0 +1,14 @@
+{
+  "name": "microapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install:main": "cd vite-microapp && yarn install",
+    "install:sub-umi4": "cd sub-apps/umi4 && yarn install",
+    "start:main": "cd vite-microapp && yarn start",
+    "start:sub-umi4": "cd sub-apps/umi4 && yarn start"
+  },
+  "author": "zhaokang",
+  "license": "ISC"
+}
