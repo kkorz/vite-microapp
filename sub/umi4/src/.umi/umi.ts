@@ -3,7 +3,7 @@
 // DO NOT CHANGE IT MANUALLY!
 import './core/polyfill';
 
-import { renderClient } from '/home/user/githubDemo/sub-apps/umi4/node_modules/@umijs/renderer-react';
+import { renderClient } from '/home/user/vite-microapp/sub/umi4/node_modules/@umijs/renderer-react';
 import { getRoutes } from './core/route';
 import { createPluginManager } from './core/plugin';
 import { createHistory } from './core/history';

@@ -19,7 +19,7 @@
         "src/.umi/*"
       ],
       "umi": [
-        "/home/user/githubDemo/sub-apps/umi4/node_modules/umi"
+        "/home/user/vite-microapp/sub/umi4/node_modules/umi"
       ],
       "umi/typings": [
         "src/.umi/typings"
