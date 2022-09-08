@@ -5,9 +5,9 @@ const Umi4 = () => {
     <div>
       Umi4子应用
       <micro-app
-        name="app1"
+        name="umi4"
         url="http://localhost:8000/"
-        baseroute="/my-page"
+        // baseroute="/umi/umi4"
       ></micro-app>
     </div>
   );

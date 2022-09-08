@@ -19,6 +19,7 @@ import "./App.less";
 const { Header, Sider, Content } = Layout;
 
 import Welcome from "./pages/Welcome";
+import Solidjs from "./pages/solidjs";
 import Vue2 from "./pages/vue/Vue2";
 import Umi4 from "./pages/umi/Umi4";
 
@@ -26,6 +27,11 @@ const items = [
   {
     label: "Welcome",
     key: "/welcome",
+    icon: <UserOutlined />,
+  },
+  {
+    label: "Solidjs",
+    key: "/solidjs",
     icon: <UserOutlined />,
   },
   {
@@ -106,6 +112,7 @@ const App = () => {
 
           <Routes>
             <Route path="/welcome" element={<Welcome />} />
+            <Route path="/solidjs" element={<Solidjs />} />
             <Route path="/vue/vue2" element={<Vue2 />} />
             <Route path="/umi/umi4" element={<Umi4 />} />
             <Route path="*" element={<Welcome />} />
