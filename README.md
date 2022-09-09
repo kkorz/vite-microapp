@@ -11,4 +11,5 @@
 - vite
 - react 
 - vue
+- solidjs
 - typescript

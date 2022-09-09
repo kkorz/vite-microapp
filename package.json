@@ -4,12 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "install": "npm-run-all -p install:main install:sub-umi4",
+    "install": "npm-run-all -p install:*",
     "install:main": "cd main && yarn install",
     "install:sub-umi4": "cd sub/umi4 && yarn install",
-    "start": "npm-run-all -p start:main start:sub-umi4",
+    "install:sub-solidjs": "cd sub/solidjs && yarn install",
+    "start": "npm-run-all -p start:*",
     "start:main": "cd main && yarn start",
-    "start:sub-umi4": "cd sub/umi4 && yarn start"
+    "start:sub-umi4": "cd sub/umi4 && yarn start",
+    "start:sub-solidjs": "cd sub/solidjs && yarn start"
   },
   "author": "zhaokang",
   "license": "ISC",
