@@ -1,8 +1,7 @@
-import React from "react";
-
+import styles from "@/common.module.less";
 
 const Vue2 = () => {
-    return <div>Vue2</div>
-}
+  return <div className={styles.container}>Vue2</div>;
+};
 
-export default Vue2
+export default Vue2;

@@ -6,7 +6,8 @@
   "scripts": {
     "start": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prettier:write": "prettier src/**/*.{ts,tsx,less} --write"
   },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
@@ -17,6 +18,7 @@
     "react-router-dom": "^6.3.0"
   },
   "devDependencies": {
+    "@types/node": "^18.7.18",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
     "@vitejs/plugin-react": "^2.1.0",

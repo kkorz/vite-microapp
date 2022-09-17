@@ -4,7 +4,7 @@ export default {
     type: "hash",
   },
   mfsu: false,
-  chainWebpack(memo, { env }) {
+  chainWebpack(memo: any, { env }: { env: string }) {
     if (env === "development") {
       memo.devServer.headers = {
         ...memo.devServer.headers,
